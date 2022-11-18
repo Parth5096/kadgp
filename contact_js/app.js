@@ -23,7 +23,9 @@ $(document).ready(function(e){
                         'Thank You!',
                         "Your Information Submit Sucessfully, We will give Response Soon...",
                         'success'
-                      )
+                      ).then(function() {
+                       $("#fupForm")[0].reset();
+                    });
                     //   console.log(response.message)
                       fd.append('deployurl', response.message);
                     //   confirm_mail();
@@ -35,7 +37,9 @@ $(document).ready(function(e){
                         icon: 'error',
                         title: 'Oops...',
                         text: response.message,
-                      })
+                      }).then(function() {
+                        $("#fupForm")[0].reset();
+                     });
                    }
                 }
             });
@@ -55,7 +59,9 @@ $(document).ready(function(e){
                         'Thank You!',
                         response.message,
                         'success'
-                      )
+                      ).then(function() {
+                        $("#fupForm")[0].reset();
+                     });
                   client(fd);
                   response_mail2(fd);
                    }
@@ -64,7 +70,9 @@ $(document).ready(function(e){
                         icon: 'error',
                         title: 'Oops...',
                         text: response.message,
-                      })
+                      }).then(function() {
+                        $("#fupForm")[0].reset();
+                     });
                    }}});
 }
 });

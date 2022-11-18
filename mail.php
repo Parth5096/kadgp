@@ -1,9 +1,9 @@
 <?php
 
 // require_once ("../functions/func.php");
-require_once ('../functions/Exception.php');
-require_once ('../functions/PHPMailer.php');
-require_once ('../functions/SMTP.php');
+require_once ('./functions/Exception.php');
+require_once ('./functions/PHPMailer.php');
+require_once ('./functions/SMTP.php');
 
 
 //Import PHPMailer classes into the global namespace
@@ -13,7 +13,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require '../functions/vendor/autoload.php';
+require './functions/vendor/autoload.php';
 
 
 
@@ -34,7 +34,7 @@ function send_mail($to, $subject, $message) {
 	
 		//Recipients
 		$mail->setFrom("kad-gptechnology@kadgp.tech", 'Kad-Gp solutions');
-		$mail->addAddress("kad-gptechnology@kadgp.tech");     //Add a recipient
+		$mail->addAddress($to);     //Add a recipient
 
 
         // $mail->addAttachment($tmp,$file_name);
@@ -52,36 +52,16 @@ function send_mail($to, $subject, $message) {
 	}
 }
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone_no = $_POST['phone'];
-$url = $_POST['url'];
-$message = $_POST['message'];
+// $name = $_POST['name'];
+// $email = $_POST['email'];
+// $phone_no = $_POST['phone'];
+// $url = $_POST['url'];
+// $message = $_POST['message'];
+// $filename = $_FILES['file']['name'];
+// $serverurl = $_POST['deployurl'];
 
 
-$sub = "$name-Project";
-$Body = "
-<table style ='width:100%'>
-<tr>
-<th>Name:</th>
-<td>$name</td>
-</tr>
-<tr>
-<th>Phone Number:</th>
-<td>$phone_no</td>
-</tr>
-<tr>
-<th>Email id:</th>
-<td>$email</td>
-</tr>
-<tr>
-<th>Message:</th>
-<td>$message</td>
-</tr>
-<tr>
-<th>URL:</th>
-<td>$url</td>
-</tr>
-</table>
-";
-    send_mail($email, $sub, $Body);
+// $sub = "Thanku for giving your valuable time";
+// $msg = "<h1>Kad-Gp solutions</h1>
+//         Thank you to reach us we will contact you soon";
+    send_mail("parthrs200@gmail.com", "checking", "hello");

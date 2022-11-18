@@ -25,15 +25,15 @@ function send_mail($to, $subject, $message) {
 		//Server settings
 		$mail->SMTPDebug = 0;                      //Enable verbose debug output
 		$mail->isSMTP();                                            //Send using SMTP
-		$mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+		$mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
 		$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-		$mail->Username   = 'edubusiness.tech@gmail.com';                     //SMTP username
-		$mail->Password   = 'sastmmgyhyqcllko';                               //SMTP password
+		$mail->Username   = 'kad-gptechnology@kadgp.tech';                     //SMTP username
+		$mail->Password   = 'Kadgp@321';                               //SMTP password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 		$mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 	
 		//Recipients
-		$mail->setFrom("edubusiness.tech@gmail.com", 'Kad-Gp solutions');
+		$mail->setFrom("kad-gptechnology@kadgp.tech", 'Kad-Gp solutions');
 		$mail->addAddress($to);     //Add a recipient
 
 
