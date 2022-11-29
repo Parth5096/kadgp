@@ -1,0 +1,173 @@
+  <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <!-- <div class="section-header">
+          <h2>Our Services</h2>
+          <p>We Help You To Build High-Quality Digital Solutions And Products As Well As Deliver A Wide Range Of Related Professional Services. We Are Providing World-Class Service To Our Clients.</p>
+        </div> -->
+
+        <div class="row gy-5">
+
+          <div  class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/app.gif" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3 >Android App Development</h3>
+                </a>
+                <!-- <p>We work to fit your brand picture on different screens. Mobile app development offers a robust solution to create brand awareness and a list of loyal customers for your product.                                     </p> -->
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/ios.gif" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>Ios App Development</h3>
+                </a>
+                <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/web.gif" class="img-fluid" alt="" height="50">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>Web Development</h3>
+                </a>
+                <!-- <p>Your website reflects the quality and standard you adhere to as a brand. We offer web app development services to sustain the quality as per the market needs.                                    </p> -->
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/machine.gif" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>Machine learning</h3>
+                </a>
+                <!-- <p>Reshape your business by offering intelligent solutions to your users using progressive technologies like artificial intelligence and machine learning with us.                                    </p> -->
+                <a href="" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/cloud.gif" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>Cloud/Devops</h3>
+                </a>
+                <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p> -->
+                <a href="" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/software.gif" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>Software Development</h3>
+                </a>
+                <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p> -->
+                <a href="" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img src="assets/img/digital.gif" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>Digital Marketing</h3>
+                </a>
+                <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p> -->
+                <a href="" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div style="-webkit-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);
+              box-shadow: 0px 1px 34px -3px rgba(0,0,0,0.75);" class="img">
+                <img  src="assets/img/iot.gif" class="img-fluid iot" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="" class="stretched-link">
+                  <h3>IoT</h3>
+                </a>
+                <!-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p> -->
+                <a href="" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
